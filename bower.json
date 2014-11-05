@@ -1,0 +1,9 @@
+{
+  "name": "baicons",
+  "version": "0.1.0",
+  "main": "style.css",
+  "dependencies": {},
+  "ignore": [
+  	"icons-reference.html"
+  ]
+}
