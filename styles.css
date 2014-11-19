@@ -38,189 +38,189 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-weibo:before {
-  content: "D";
-}
-.icon-windows:before {
+.icon-android:before {
   content: "a";
 }
-.icon-pencil:before {
+.icon-apple:before {
   content: "b";
 }
-.icon-image:before {
+.icon-arrow-bottom:before {
+  content: "c";
+}
+.icon-arrow-left:before {
   content: "d";
 }
-.icon-cart:before {
+.icon-arrow-right:before {
   content: "e";
 }
-.icon-location:before {
+.icon-arrow-top:before {
   content: "f";
 }
-.icon-clock:before {
+.icon-arrow-up:before {
   content: "g";
 }
-.icon-phone:before {
+.icon-bars:before {
   content: "h";
 }
-.icon-mobile:before {
+.icon-blocked:before {
   content: "i";
 }
 .icon-bubble:before {
   content: "j";
 }
-.icon-cog:before {
+.icon-bullhorn:before {
+  content: "k";
+}
+.icon-calendar:before {
+  content: "l";
+}
+.icon-camera:before {
   content: "m";
 }
-.icon-remove:before {
+.icon-cart:before {
   content: "n";
 }
-.icon-eye:before {
+.icon-cash-bag:before {
   content: "o";
 }
-.icon-star:before {
+.icon-check-mark:before {
   content: "p";
 }
-.icon-heart:before {
+.icon-check-mark-circle:before {
   content: "q";
 }
-.icon-info:before {
+.icon-clock:before {
   content: "r";
 }
-.icon-arrow-up:before {
-  content: "B";
+.icon-cog:before {
+  content: "s";
+}
+.icon-delete:before {
+  content: "t";
+}
+.icon-delete-circle:before {
+  content: "u";
 }
 .icon-envelope:before {
-  content: "C";
+  content: "v";
 }
-.icon-bars:before {
-  content: "E";
+.icon-eye:before {
+  content: "w";
 }
-.icon-search:before {
-  content: "F";
-}
-.icon-apple:before {
-  content: "H";
-}
-.icon-android:before {
-  content: "I";
-}
-.icon-bullhorn:before {
-  content: "J";
+.icon-fire:before {
+  content: "x";
 }
 .icon-flag:before {
-  content: "K";
+  content: "y";
 }
-.icon-post:before {
-  content: "L";
+.icon-heart:before {
+  content: "z";
 }
-.icon-cash-bag:before {
-  content: "M";
+.icon-image:before {
+  content: "A";
 }
-.icon-renew:before {
-  content: "N";
-}
-.icon-question:before {
-  content: "P";
-}
-.icon-arrow-bottom:before {
-  content: "Q";
-}
-.icon-arrow-left:before {
-  content: "R";
-}
-.icon-arrow-right:before {
-  content: "S";
-}
-.icon-arrow-top:before {
-  content: "T";
-}
-.icon-triangle-down:before {
-  content: "U";
-}
-.icon-lm-fangwu:before {
-  content: "V";
-}
-.icon-lm-ershouche:before {
-  content: "W";
-}
-.icon-lm-jianli:before {
-  content: "Y";
-}
-.icon-lm-chongwu:before {
-  content: "Z";
-}
-.icon-lm-jiaoyu:before {
-  content: "0";
-}
-.icon-lm-fuwu:before {
-  content: "1";
-}
-.icon-lm-quanzhi:before {
-  content: "3";
+.icon-info:before {
+  content: "B";
 }
 .icon-lightning:before {
+  content: "C";
+}
+.icon-lm-chongwu:before {
+  content: "D";
+}
+.icon-lm-ershouche:before {
+  content: "E";
+}
+.icon-lm-fangwu:before {
+  content: "F";
+}
+.icon-lm-fuwu:before {
+  content: "G";
+}
+.icon-lm-jianli:before {
+  content: "H";
+}
+.icon-lm-jiaoyu:before {
+  content: "I";
+}
+.icon-location:before {
+  content: "J";
+}
+.icon-loop:before {
+  content: "K";
+}
+.icon-lu-quanzhi:before {
+  content: "L";
+}
+.icon-minus:before {
+  content: "M";
+}
+.icon-minus-circle:before {
+  content: "N";
+}
+.icon-mobile:before {
+  content: "O";
+}
+.icon-pencil:before {
+  content: "P";
+}
+.icon-phone:before {
+  content: "Q";
+}
+.icon-pin-to-top:before {
+  content: "R";
+}
+.icon-post:before {
+  content: "S";
+}
+.icon-question:before {
+  content: "T";
+}
+.icon-remove:before {
+  content: "U";
+}
+.icon-renew:before {
+  content: "V";
+}
+.icon-safty:before {
+  content: "W";
+}
+.icon-safty-warn:before {
+  content: "X";
+}
+.icon-search:before {
+  content: "Y";
+}
+.icon-share:before {
+  content: "Z";
+}
+.icon-star:before {
+  content: "0";
+}
+.icon-triangle-down:before {
+  content: "1";
+}
+.icon-user:before {
+  content: "2";
+}
+.icon-users:before {
+  content: "3";
+}
+.icon-vcard:before {
+  content: "4";
+}
+.icon-view-item:before {
   content: "5";
 }
 .icon-view-pic:before {
-  content: "7";
-}
-.icon-view-item:before {
-  content: "8";
-}
-.icon-view-title:before {
-  content: "9";
-}
-.icon-pin-to-top:before {
-  content: "!";
-}
-.icon-fire:before {
-  content: "\"";
-}
-.icon-safty:before {
-  content: "$";
-}
-.icon-safty-warn:before {
-  content: "%";
-}
-.icon-calendar:before {
-  content: "&";
-}
-.icon-user:before {
-  content: ")";
-}
-.icon-users:before {
-  content: "*";
-}
-.icon-vcard:before {
-  content: "k";
-}
-.icon-baixing-icons:before {
-  content: "c";
-}
-.icon-delete-circle:before {
-  content: "l";
-}
-.icon-check-mark-circle:before {
-  content: "O";
-}
-.icon-check-mark:before {
-  content: "X";
-}
-.icon-minus:before {
-  content: "2";
-}
-.icon-minus-circle:before {
-  content: "4";
-}
-.icon-delete:before {
   content: "6";
 }
-.icon-blocked:before {
-  content: "s";
+.icon-view-title:before {
+  content: "7";
 }
-.icon-loop:before {
-  content: "t";
+.icon-weibo:before {
+  content: "8";
 }
-.icon-share:before {
-  content: "u";
+.icon-windows:before {
+  content: "9";
 }
