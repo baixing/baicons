@@ -38,9 +38,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-icon-apple:before {
-  content: "a";
-}
 .icon-android:before {
   content: "b";
 }
