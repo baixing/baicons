@@ -1,8 +1,8 @@
-## Baicons - 百姓的 Icon Font 字体库
+## Baicons - 百姓网的图标字体库
 
 ### 字体一览
 
-[baixing/baicons](http://baixing.github.io/baicons/icons-reference.html)
+[baicons/icons-reference.html](http://baixing.github.io/baicons/icons-reference.html)
 
 ### 安装
 
