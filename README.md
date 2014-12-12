@@ -2,7 +2,7 @@
 
 ### 字体一览
 
-[baixing/baicons](http://gh.amio.us/baicons/icons-reference.html)
+[baixing/baicons](http://baixing.github.io/baicons/icons-reference.html)
 
 ### 安装
 
