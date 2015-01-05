@@ -173,9 +173,6 @@
 .icon-post:before {
   content: "T";
 }
-.icon-question:before {
-  content: "U";
-}
 .icon-remove:before {
   content: "V";
 }
@@ -209,9 +206,6 @@
 .icon-users:before {
   content: "5";
 }
-.icon-vcard:before {
-  content: "6";
-}
 .icon-view-item:before {
   content: "7";
 }
@@ -232,4 +226,10 @@
 }
 .icon-plus-circle:before {
   content: "$";
+}
+.icon-question:before {
+  content: "U";
+}
+.icon-vcard:before {
+  content: "6";
 }
