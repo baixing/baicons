@@ -39,197 +39,197 @@
 }
 
 .icon-android:before {
-  content: "b";
+  content: "a";
 }
 .icon-apple:before {
-  content: "c";
+  content: "b";
 }
 .icon-arrow-bottom:before {
-  content: "d";
+  content: "c";
 }
 .icon-arrow-left:before {
-  content: "e";
+  content: "d";
 }
 .icon-arrow-right:before {
-  content: "f";
+  content: "e";
 }
 .icon-arrow-top:before {
-  content: "g";
+  content: "f";
 }
 .icon-arrow-up:before {
-  content: "h";
+  content: "g";
 }
 .icon-bars:before {
-  content: "i";
+  content: "h";
 }
 .icon-blocked:before {
-  content: "j";
+  content: "i";
 }
 .icon-bubble:before {
-  content: "k";
+  content: "j";
 }
 .icon-bullhorn:before {
-  content: "l";
+  content: "k";
 }
 .icon-calendar:before {
-  content: "m";
+  content: "l";
 }
 .icon-camera:before {
-  content: "n";
+  content: "m";
 }
 .icon-cart:before {
-  content: "o";
+  content: "n";
 }
 .icon-cash-bag:before {
-  content: "p";
-}
-.icon-check-mark:before {
-  content: "q";
-}
-.icon-check-mark-circle:before {
-  content: "r";
-}
-.icon-clock:before {
-  content: "s";
-}
-.icon-cog:before {
-  content: "t";
-}
-.icon-delete:before {
-  content: "u";
-}
-.icon-delete-circle:before {
-  content: "v";
-}
-.icon-envelope:before {
-  content: "w";
-}
-.icon-eye:before {
-  content: "x";
-}
-.icon-fire:before {
-  content: "y";
-}
-.icon-flag:before {
-  content: "z";
-}
-.icon-heart:before {
-  content: "A";
-}
-.icon-image:before {
-  content: "B";
-}
-.icon-info:before {
-  content: "C";
-}
-.icon-lightning:before {
-  content: "D";
+  content: "o";
 }
 .icon-cat-chongwu:before {
-  content: "E";
+  content: "p";
 }
 .icon-cat-ershouche:before {
-  content: "F";
+  content: "q";
 }
 .icon-cat-fangwu:before {
-  content: "G";
+  content: "r";
 }
 .icon-cat-fuwu:before {
-  content: "H";
+  content: "s";
 }
 .icon-cat-jianli:before {
-  content: "I";
+  content: "t";
 }
 .icon-cat-jiaoyu:before {
-  content: "J";
+  content: "u";
 }
 .icon-cat-quanzhi:before {
-  content: "K";
+  content: "v";
+}
+.icon-check-mark:before {
+  content: "w";
+}
+.icon-check-mark-circle:before {
+  content: "x";
+}
+.icon-clock:before {
+  content: "y";
+}
+.icon-cog:before {
+  content: "z";
+}
+.icon-delete:before {
+  content: "A";
+}
+.icon-delete-circle:before {
+  content: "B";
+}
+.icon-envelope:before {
+  content: "C";
+}
+.icon-eye:before {
+  content: "D";
+}
+.icon-fire:before {
+  content: "E";
+}
+.icon-flag:before {
+  content: "F";
+}
+.icon-heart:before {
+  content: "G";
+}
+.icon-image:before {
+  content: "H";
+}
+.icon-info:before {
+  content: "I";
+}
+.icon-lightning:before {
+  content: "J";
 }
 .icon-location:before {
-  content: "L";
+  content: "K";
 }
 .icon-loop:before {
-  content: "M";
+  content: "L";
 }
 .icon-minus:before {
-  content: "N";
+  content: "M";
 }
 .icon-minus-circle:before {
-  content: "O";
+  content: "N";
 }
 .icon-mobile:before {
-  content: "P";
+  content: "O";
 }
 .icon-pencil:before {
-  content: "Q";
+  content: "P";
 }
 .icon-phone:before {
-  content: "R";
+  content: "Q";
 }
 .icon-pin-to-top:before {
-  content: "S";
-}
-.icon-post:before {
-  content: "T";
-}
-.icon-remove:before {
-  content: "V";
-}
-.icon-renew:before {
-  content: "W";
-}
-.icon-safety:before {
-  content: "X";
-}
-.icon-safety-warn:before {
-  content: "Y";
-}
-.icon-search:before {
-  content: "Z";
-}
-.icon-share:before {
-  content: "0";
-}
-.icon-star:before {
-  content: "1";
-}
-.icon-tag:before {
-  content: "2";
-}
-.icon-triangle-down:before {
-  content: "3";
-}
-.icon-user:before {
-  content: "4";
-}
-.icon-users:before {
-  content: "5";
-}
-.icon-view-item:before {
-  content: "7";
-}
-.icon-view-pic:before {
-  content: "8";
-}
-.icon-view-title:before {
-  content: "9";
-}
-.icon-weibo:before {
-  content: "!";
-}
-.icon-windows:before {
-  content: "\"";
+  content: "R";
 }
 .icon-plus:before {
-  content: "#";
+  content: "S";
 }
 .icon-plus-circle:before {
-  content: "$";
+  content: "T";
 }
-.icon-question:before {
+.icon-post:before {
   content: "U";
 }
-.icon-vcard:before {
+.icon-question:before {
+  content: "V";
+}
+.icon-remove:before {
+  content: "W";
+}
+.icon-renew:before {
+  content: "X";
+}
+.icon-safety:before {
+  content: "Y";
+}
+.icon-safety-warn:before {
+  content: "Z";
+}
+.icon-search:before {
+  content: "0";
+}
+.icon-share:before {
+  content: "1";
+}
+.icon-star:before {
+  content: "2";
+}
+.icon-tag:before {
+  content: "3";
+}
+.icon-triangle-down:before {
+  content: "4";
+}
+.icon-user:before {
+  content: "5";
+}
+.icon-users:before {
   content: "6";
+}
+.icon-vcard:before {
+  content: "7";
+}
+.icon-view-item:before {
+  content: "8";
+}
+.icon-view-pic:before {
+  content: "9";
+}
+.icon-view-title:before {
+  content: "!";
+}
+.icon-weibo:before {
+  content: "\"";
+}
+.icon-windows:before {
+  content: "#";
 }
