@@ -1,0 +1,11 @@
+{
+  "name": "baicons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baixing/baicons.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-iconfont": "^1.0.0"
+  }
+}
