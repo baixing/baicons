@@ -1,52 +1,17 @@
 var gulp = require('gulp');
 var iconfont = require('gulp-iconfont');
+var consolidate = require('gulp-consolidate');
+var rename = require('gulp-rename');
 var fs = require('fs');
 
 var pbmapping = JSON.parse(fs.readFileSync('p2bmapping.json', 'utf8'));
 
-var style_header = '\
-@charset "UTF-7";\n\
-\n\
-@font-face {\n\
-  font-family: "baicons";\n\
-  src:url("fonts/baicons.eot");\n\
-  src:url("fonts/baicons.eot?#iefix") format("embedded-opentype"),\n\
-    url("fonts/baicons.woff") format("woff"),\n\
-    url("fonts/baicons.ttf") format("truetype"),\n\
-    url("fonts/baicons.svg#baicons") format("svg");\n\
-  font-weight: normal;\n\
-  font-style: normal;\n\
-\n\
-}\n\
-\n\
-[data-icon]:before {\n\
-  font-family: "baicons" !important;\n\
-  content: attr(data-icon);\n\
-  font-style: normal !important;\n\
-  font-weight: normal !important;\n\
-  font-variant: normal !important;\n\
-  text-transform: none !important;\n\
-  speak: none;\n\
-  line-height: 1;\n\
-  -webkit-font-smoothing: antialiased;\n\
-  -moz-osx-font-smoothing: grayscale;\n\
-}\n\
-\n\
-[class^="icon-"]:before,\n\
-[class*=" icon-"]:before {\n\
-  font-family: "baicons" !important;\n\
-  font-style: normal !important;\n\
-  font-weight: normal !important;\n\
-  font-variant: normal !important;\n\
-  text-transform: none !important;\n\
-  speak: none;\n\
-  line-height: 1;\n\
-  -webkit-font-smoothing: antialiased;\n\
-  -moz-osx-font-smoothing: grayscale;\n\
-}\n\
-';
-
-var p2b_header = "/* Puerh Icons 2 Baicons */";
+var fontName = "baicons";
+var fontPath = "fonts/";
+var cssDest = "./";
+var style = "style.css";
+var p2b = "p2b.css";
+var reference = "reference.html";
 
 gulp.task('generate', function(){
   gulp.src(['source/*.svg'])
@@ -55,28 +20,31 @@ gulp.task('generate', function(){
     }))
       .on('codepoints', function(codepoints) {
 
-        var style_css = style_header + '\n';
-        var p2b_css = p2b_header + '\n';
-        codepoints.forEach(function(entry){
-          style_css += "\n.icon-"+entry.name+":before { content: \"\\"+entry.codepoint.toString(16)+"\"; }";
-          if (!!pbmapping[entry.name]) {
-            pbmapping[entry.name].forEach(function(name){
-              p2b_css += "\n.icon-"+name+":before { content: \"\\"+entry.codepoint.toString(16)+"\"; }";
-            });
-          }
-        });
+        gulp.src('template/styles_template.css')
+            .pipe(consolidate('lodash', {
+              glyphs: codepoints,
+              fontName: fontName,
+              fontPath: fontPath
+            }))
+            .pipe(rename(style))
+            .pipe(gulp.dest(cssDest));
 
-        fs.writeFile("./styles.css", style_css, function(err) {
-          if(err) {
-            console.log(err);
-          }
-        });
-        fs.writeFile("./p2b.css", p2b_css, function(err) {
-          if(err) {
-            console.log(err);
-          }
-        });
+          gulp.src('template/p2b_template.css')
+              .pipe(consolidate('lodash', {
+                  glyphs: codepoints,
+                  mapping: pbmapping
+              }))
+              .pipe(rename(p2b))
+              .pipe(gulp.dest(cssDest));
 
+          gulp.src('template/reference_template.html')
+              .pipe(consolidate('lodash', {
+                  glyphs: codepoints,
+                  cssdest: cssDest,
+                  style: style
+              }))
+              .pipe(rename(reference))
+              .pipe(gulp.dest(cssDest));
       })
     .pipe(gulp.dest('./fonts/'));
 });

@@ -1,0 +1,7 @@
+/* Puerh Icons 2 Baicons */
+
+<% _.each(glyphs, function(glyph) {
+    if (_.has(mapping, glyph.name))
+        _.each(mapping[glyph.name], function(entry) {
+%>.icon-<%= entry %>:before { content: "\<%= glyph.codepoint.toString(16).toUpperCase() %>"; }
+<% });}); %>
