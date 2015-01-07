@@ -2,10 +2,8 @@ var gulp = require('gulp');
 var iconfont = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
 var rename = require('gulp-rename');
-var fs = require('fs');
 
-var pbmapping = JSON.parse(fs.readFileSync('p2bmapping.json', 'utf8'));
-
+var p2bmapping = require('./template/p2b_mapping.json');
 var fontName = "baicons";
 var fontPath = "fonts/";
 var cssDest = "./";
@@ -32,7 +30,7 @@ gulp.task('generate', function(){
           gulp.src('template/p2b_template.css')
               .pipe(consolidate('lodash', {
                   glyphs: codepoints,
-                  mapping: pbmapping
+                  mapping: p2bmapping
               }))
               .pipe(rename(p2b))
               .pipe(gulp.dest(cssDest));
