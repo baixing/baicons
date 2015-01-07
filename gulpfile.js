@@ -1,43 +1,10 @@
 var gulp = require('gulp');
 var iconfont = require('gulp-iconfont');
+var fs = require('fs');
 
-var pbmapping = {
-  "heart" : "jiaoyou",
-  "cat-fangwu" : "fangwu",
-  "cat-ershouche" : "cheliang",
-  "cat-jianli" : "jianli",
-  "arrow-left" : "arrowLeft",
-  "triangle-down" : "downTriangle",
-  "view-pic" : "viewPic",
-  "clock" : "jianzhi",
-  "user" : "user-2",
-  "delete-circle" : "cancel-circle",
-  "check-mark" : "checkmark",
-  "safety" : "safety1",
-  "arrow-top" : "arrowTop",
-  "cat-chongwu" : "chongwu",
-  "check-mark-circle" : "checkmark-circle",
-  "cat-fuwu" : "fuwu",
-  "pin-to-top" : "pinToTop",
-  "arrow-bottom" : "arrowDown",
-  "cart" : "ershou",
-  "vcard" : "card",
-  "view-item" : "viewItem",
-  "cat-jiaoyu" : "jiaoyu",
-  "safety-warn" : "safety2",
-  "mobile" : "mobile-2",
-  "cat-quanzhi" : "quanzhi",
-  "cash-bag" : "cashBag",
-  "windows" : "windows8",
-  "arrow-right" : "arrowRight",
-  "camera" : "pcCamera",
-  "delete" : "close",
-  "view-title" : "viewTitle"
-  // cheliang & car => q
-  // jiaoyou & entertainment => G
-};
+var pbmapping = JSON.parse(fs.readFileSync('p2bmapping.json', 'utf8'));
 
-var style_header = '\n\
+var style_header = '\
 @charset "UTF-7";\n\
 \n\
 @font-face {\n\
@@ -93,12 +60,13 @@ gulp.task('generate', function(){
         codepoints.forEach(function(entry){
           style_css += "\n.icon-"+entry.name+":before { content: \"\\"+entry.codepoint.toString(16)+"\"; }";
           if (!!pbmapping[entry.name]) {
-            p2b_css += "\n.icon-"+pbmapping[entry.name]+":before { content: \"\\"+entry.codepoint.toString(16)+"\"; }";
+            pbmapping[entry.name].forEach(function(name){
+              p2b_css += "\n.icon-"+name+":before { content: \"\\"+entry.codepoint.toString(16)+"\"; }";
+            });
           }
         });
 
-        var fs = require('fs');
-        fs.writeFile("./style.css", style_css, function(err) {
+        fs.writeFile("./styles.css", style_css, function(err) {
           if(err) {
             console.log(err);
           }
