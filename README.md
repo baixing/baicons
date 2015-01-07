@@ -21,5 +21,4 @@
 ### 怎样更新图标
 
 1. 在 `source` 目录下更新图标源文件（svg 格式）
-1. 将改动的文件上传至 [fontastic.me](http://app.fontastic.me/) 并导出字体包
-1. 用新文件替换掉仓库中的相应文件
+1. 执行 `gulp generate` 命令生成图标和对应样式表

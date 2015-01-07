@@ -1,0 +1,39 @@
+{
+  "arrow-bottom": ["arrowDown"],
+  "arrow-left": ["arrowLeft"],
+  "arrow-right": ["arrowRight"],
+  "arrow-top": ["arrowTop"],
+  "camera": ["pcCamera"],
+  "cart": ["ershou"],
+  "cash-bag": ["cashBag"],
+  "cat-chongwu": ["chongwu"],
+  "cat-ershouche": [
+    "cheliang",
+    "car"
+  ],
+  "cat-fangwu": ["fangwu"],
+  "cat-fuwu": ["fuwu"],
+  "cat-jianli": ["jianli"],
+  "cat-jiaoyu": ["jiaoyu"],
+  "cat-quanzhi": ["quanzhi"],
+  "check-mark": ["checkmark"],
+  "check-mark-circle": ["checkmark-circle"],
+  "clock": ["jianzhi"],
+  "delete": ["close"],
+  "delete-circle": ["cancel-circle"],
+  "heart": [
+    "jiaoyou",
+    "entertainment"
+  ],
+  "mobile": ["mobile-2"],
+  "pin-to-top": ["pinToTop"],
+  "safety": ["safety1"],
+  "safety-warn": ["safety2"],
+  "triangle-down": ["downTriangle"],
+  "user": ["user-2"],
+  "vcard": ["card"],
+  "view-item": ["viewItem"],
+  "view-pic": ["viewPic"],
+  "view-title": ["viewTitle"],
+  "windows": ["windows8"]
+}
