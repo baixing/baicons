@@ -1,235 +1,234 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "baicons";
-  src:url("fonts/baicons.eot");
-  src:url("fonts/baicons.eot?#iefix") format("embedded-opentype"),
-    url("fonts/baicons.woff") format("woff"),
-    url("fonts/baicons.ttf") format("truetype"),
-    url("fonts/baicons.svg#baicons") format("svg");
-  font-weight: normal;
-  font-style: normal;
-
+    font-family: "baicons";
+    src: url('fonts/baicons.eot');
+    src: url('fonts/baicons.eot?#iefix') format('embedded-opentype'),
+    url('fonts/baicons.woff') format('woff'),
+    url('fonts/baicons.ttf') format('truetype'),
+    url('fonts/baicons.svg#baicons') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 [data-icon]:before {
-  font-family: "baicons" !important;
-  content: attr(data-icon);
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "baicons" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "baicons" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "baicons" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-android:before {
-  content: "a";
+    content: "\E001";
 }
 .icon-apple:before {
-  content: "b";
+    content: "\E002";
 }
 .icon-arrow-bottom:before {
-  content: "c";
+    content: "\E003";
 }
 .icon-arrow-left:before {
-  content: "d";
+    content: "\E004";
 }
 .icon-arrow-right:before {
-  content: "e";
+    content: "\E005";
 }
 .icon-arrow-top:before {
-  content: "f";
+    content: "\E006";
 }
 .icon-arrow-up:before {
-  content: "g";
+    content: "\E007";
 }
 .icon-bars:before {
-  content: "h";
+    content: "\E008";
 }
 .icon-blocked:before {
-  content: "i";
+    content: "\E009";
 }
 .icon-bubble:before {
-  content: "j";
+    content: "\E00A";
 }
 .icon-bullhorn:before {
-  content: "k";
+    content: "\E00B";
 }
 .icon-calendar:before {
-  content: "l";
+    content: "\E00C";
 }
 .icon-camera:before {
-  content: "m";
+    content: "\E00D";
 }
 .icon-cart:before {
-  content: "n";
+    content: "\E00E";
 }
 .icon-cash-bag:before {
-  content: "o";
+    content: "\E00F";
 }
 .icon-cat-chongwu:before {
-  content: "p";
+    content: "\E010";
 }
 .icon-cat-ershouche:before {
-  content: "q";
+    content: "\E011";
 }
 .icon-cat-fangwu:before {
-  content: "r";
+    content: "\E012";
 }
 .icon-cat-fuwu:before {
-  content: "s";
+    content: "\E013";
 }
 .icon-cat-jianli:before {
-  content: "t";
+    content: "\E014";
 }
 .icon-cat-jiaoyu:before {
-  content: "u";
+    content: "\E015";
 }
 .icon-cat-quanzhi:before {
-  content: "v";
-}
-.icon-check-mark:before {
-  content: "w";
+    content: "\E016";
 }
 .icon-check-mark-circle:before {
-  content: "x";
+    content: "\E017";
+}
+.icon-check-mark:before {
+    content: "\E018";
 }
 .icon-clock:before {
-  content: "y";
+    content: "\E019";
 }
 .icon-cog:before {
-  content: "z";
-}
-.icon-delete:before {
-  content: "A";
+    content: "\E01A";
 }
 .icon-delete-circle:before {
-  content: "B";
+    content: "\E01B";
+}
+.icon-delete:before {
+    content: "\E01C";
 }
 .icon-envelope:before {
-  content: "C";
+    content: "\E01D";
 }
 .icon-eye:before {
-  content: "D";
+    content: "\E01E";
 }
 .icon-fire:before {
-  content: "E";
+    content: "\E01F";
 }
 .icon-flag:before {
-  content: "F";
+    content: "\E020";
 }
 .icon-heart:before {
-  content: "G";
+    content: "\E021";
 }
 .icon-image:before {
-  content: "H";
+    content: "\E022";
 }
 .icon-info:before {
-  content: "I";
+    content: "\E023";
 }
 .icon-lightning:before {
-  content: "J";
+    content: "\E024";
 }
 .icon-location:before {
-  content: "K";
+    content: "\E025";
 }
 .icon-loop:before {
-  content: "L";
-}
-.icon-minus:before {
-  content: "M";
+    content: "\E026";
 }
 .icon-minus-circle:before {
-  content: "N";
+    content: "\E027";
+}
+.icon-minus:before {
+    content: "\E028";
 }
 .icon-mobile:before {
-  content: "O";
+    content: "\E029";
 }
 .icon-pencil:before {
-  content: "P";
+    content: "\E02A";
 }
 .icon-phone:before {
-  content: "Q";
+    content: "\E02B";
 }
 .icon-pin-to-top:before {
-  content: "R";
-}
-.icon-plus:before {
-  content: "S";
+    content: "\E02C";
 }
 .icon-plus-circle:before {
-  content: "T";
+    content: "\E02D";
+}
+.icon-plus:before {
+    content: "\E02E";
 }
 .icon-post:before {
-  content: "U";
+    content: "\E02F";
 }
 .icon-question:before {
-  content: "V";
+    content: "\E030";
 }
 .icon-remove:before {
-  content: "W";
+    content: "\E031";
 }
 .icon-renew:before {
-  content: "X";
-}
-.icon-safety:before {
-  content: "Y";
+    content: "\E032";
 }
 .icon-safety-warn:before {
-  content: "Z";
+    content: "\E033";
+}
+.icon-safety:before {
+    content: "\E034";
 }
 .icon-search:before {
-  content: "0";
+    content: "\E035";
 }
 .icon-share:before {
-  content: "1";
+    content: "\E036";
 }
 .icon-star:before {
-  content: "2";
+    content: "\E037";
 }
 .icon-tag:before {
-  content: "3";
+    content: "\E038";
 }
 .icon-triangle-down:before {
-  content: "4";
+    content: "\E039";
 }
 .icon-user:before {
-  content: "5";
+    content: "\E03A";
 }
 .icon-users:before {
-  content: "6";
+    content: "\E03B";
 }
 .icon-vcard:before {
-  content: "7";
+    content: "\E03C";
 }
 .icon-view-item:before {
-  content: "8";
+    content: "\E03D";
 }
 .icon-view-pic:before {
-  content: "9";
+    content: "\E03E";
 }
 .icon-view-title:before {
-  content: "!";
+    content: "\E03F";
 }
 .icon-weibo:before {
-  content: "\"";
+    content: "\E040";
 }
 .icon-windows:before {
-  content: "#";
+    content: "\E041";
 }
