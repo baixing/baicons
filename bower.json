@@ -2,7 +2,7 @@
   "name": "baicons",
   "version": "0.4.1",
   "main": [
-    "fonts/*",
+    "fonts/*.*",
     "styles.css",
     "p2b.css",
     "icons-reference.html"
