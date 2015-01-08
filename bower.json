@@ -1,13 +1,16 @@
 {
   "name": "baicons",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "main": [
-    "fonts/*.*",
+    "fonts/baicons.eot",
+    "fonts/baicons.svg",
+    "fonts/baicons.ttf",
+    "fonts/baicons.woff",
     "styles.css",
     "p2b.css",
     "icons-reference.html"
   ],
   "ignore": [
-    "**/*"
+    "**/*.*"
   ]
 }
