@@ -1,16 +1,18 @@
 {
   "name": "baicons",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "main": [
     "fonts/baicons.eot",
     "fonts/baicons.svg",
     "fonts/baicons.ttf",
     "fonts/baicons.woff",
-    "styles.css",
-    "p2b.css",
-    "icons-reference.html"
+    "styles.css"
   ],
   "ignore": [
-    "**/*"
+    "**/.*",
+    "gulpfile.js",
+    "package.json",
+    "source",
+    "template"
   ]
 }
