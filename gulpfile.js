@@ -9,7 +9,7 @@ var fontName = "baicons";
 var fontPath = "fonts/";
 var cssDest = "./";
 
-var style = "styles.css";
+var style = "baicons.css";
 var p2b = "p2b.css";
 var reference = "icons-reference.html";
 
@@ -50,6 +50,6 @@ function generateFonts(cb) {
     .on('finish',cb);
 }
 
-gulp.task('gen', generateFonts);
+gulp.task('build', generateFonts);
 
 gulp.task('default', generateFonts);

@@ -11,7 +11,8 @@
     "fonts/baicons.svg",
     "fonts/baicons.ttf",
     "fonts/baicons.woff",
-    "styles.css"
+    "baicons.css",
+    "p2b.css"
   ],
   "ignore": [
     "**/.*",
