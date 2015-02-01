@@ -5,7 +5,7 @@
     "url": "https://github.com/baixing/baicons.git"
   },
   "devDependencies": {
-    "gulp": "^3.8.10",
+    "gulp": "git://github.com/gulpjs/gulp#4.0",
     "gulp-consolidate": "^0.1.2",
     "gulp-iconfont": "^1.0.0",
     "gulp-rename": "^1.2.0",

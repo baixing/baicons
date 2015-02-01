@@ -5,13 +5,15 @@ var rename = require('gulp-rename');
 
 var p2bmapping = require('./template/p2b_mapping.json');
 var fontName = "baicons";
+
 var fontPath = "fonts/";
 var cssDest = "./";
+
 var style = "styles.css";
 var p2b = "p2b.css";
 var reference = "icons-reference.html";
 
-gulp.task('generate', function () {
+function generateFonts(cb) {
   gulp.src(['source/*.svg'])
     .pipe(iconfont({
       fontName: 'baicons'
@@ -44,7 +46,10 @@ gulp.task('generate', function () {
         .pipe(rename(reference))
         .pipe(gulp.dest(cssDest));
     })
-    .pipe(gulp.dest('./fonts/'));
-});
+    .pipe(gulp.dest('./fonts/'))
+    .on('finish',cb);
+}
 
-gulp.task('default', ['generate']);
+gulp.task('gen', generateFonts);
+
+gulp.task('default', generateFonts);
