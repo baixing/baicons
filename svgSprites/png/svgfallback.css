@@ -1,0 +1,456 @@
+
+.icon-android {
+  background-image: url(svgfallback.png);
+  background-position: 0px 0px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-apple {
+  background-image: url(svgfallback.png);
+  background-position: -72px 0px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-arrow-bottom {
+  background-image: url(svgfallback.png);
+  background-position: -144px 0px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-arrow-left {
+  background-image: url(svgfallback.png);
+  background-position: -216px 0px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-arrow-right {
+  background-image: url(svgfallback.png);
+  background-position: -288px 0px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-arrow-top {
+  background-image: url(svgfallback.png);
+  background-position: 0px -72px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-arrow-up {
+  background-image: url(svgfallback.png);
+  background-position: -72px -72px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-bars {
+  background-image: url(svgfallback.png);
+  background-position: -144px -72px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-blocked {
+  background-image: url(svgfallback.png);
+  background-position: -216px -72px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-bubble {
+  background-image: url(svgfallback.png);
+  background-position: -288px -72px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-bullhorn {
+  background-image: url(svgfallback.png);
+  background-position: 0px -144px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-calendar {
+  background-image: url(svgfallback.png);
+  background-position: -72px -144px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-camera {
+  background-image: url(svgfallback.png);
+  background-position: -144px -144px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-cart {
+  background-image: url(svgfallback.png);
+  background-position: -216px -144px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-cash-bag {
+  background-image: url(svgfallback.png);
+  background-position: -288px -144px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-cat-chongwu {
+  background-image: url(svgfallback.png);
+  background-position: 0px -216px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-cat-ershouche {
+  background-image: url(svgfallback.png);
+  background-position: -72px -216px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-cat-fangwu {
+  background-image: url(svgfallback.png);
+  background-position: -144px -216px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-cat-fuwu {
+  background-image: url(svgfallback.png);
+  background-position: -216px -216px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-cat-jianli {
+  background-image: url(svgfallback.png);
+  background-position: -288px -216px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-cat-jiaoyu {
+  background-image: url(svgfallback.png);
+  background-position: 0px -288px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-cat-quanzhi {
+  background-image: url(svgfallback.png);
+  background-position: -72px -288px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-check-mark-circle {
+  background-image: url(svgfallback.png);
+  background-position: -144px -288px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-check-mark {
+  background-image: url(svgfallback.png);
+  background-position: -216px -288px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-clock {
+  background-image: url(svgfallback.png);
+  background-position: -288px -288px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-cog {
+  background-image: url(svgfallback.png);
+  background-position: 0px -360px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-delete-circle {
+  background-image: url(svgfallback.png);
+  background-position: -72px -360px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-delete {
+  background-image: url(svgfallback.png);
+  background-position: -144px -360px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-envelope {
+  background-image: url(svgfallback.png);
+  background-position: -216px -360px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-eye {
+  background-image: url(svgfallback.png);
+  background-position: -288px -360px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-fire {
+  background-image: url(svgfallback.png);
+  background-position: 0px -432px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-flag {
+  background-image: url(svgfallback.png);
+  background-position: -72px -432px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-heart {
+  background-image: url(svgfallback.png);
+  background-position: -144px -432px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-image {
+  background-image: url(svgfallback.png);
+  background-position: -216px -432px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-info {
+  background-image: url(svgfallback.png);
+  background-position: -288px -432px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-lightning {
+  background-image: url(svgfallback.png);
+  background-position: 0px -504px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-location {
+  background-image: url(svgfallback.png);
+  background-position: -72px -504px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-loop {
+  background-image: url(svgfallback.png);
+  background-position: -144px -504px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-minus-circle {
+  background-image: url(svgfallback.png);
+  background-position: -216px -504px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-minus {
+  background-image: url(svgfallback.png);
+  background-position: -288px -504px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-mobile {
+  background-image: url(svgfallback.png);
+  background-position: 0px -576px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-pencil {
+  background-image: url(svgfallback.png);
+  background-position: -72px -576px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-phone {
+  background-image: url(svgfallback.png);
+  background-position: -144px -576px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-pin-to-top {
+  background-image: url(svgfallback.png);
+  background-position: -216px -576px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-plus-circle {
+  background-image: url(svgfallback.png);
+  background-position: -288px -576px;
+  width: 68px;
+  height: 68px;
+}
+
+.icon-plus {
+  background-image: url(svgfallback.png);
+  background-position: -288px -644px;
+  width: 69px;
+  height: 69px;
+}
+
+.icon-post {
+  background-image: url(svgfallback.png);
+  background-position: 0px -713px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-question {
+  background-image: url(svgfallback.png);
+  background-position: -72px -713px;
+  width: 68px;
+  height: 68px;
+}
+
+.icon-remove {
+  background-image: url(svgfallback.png);
+  background-position: -140px -713px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-renew {
+  background-image: url(svgfallback.png);
+  background-position: -212px -713px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-safety-warn {
+  background-image: url(svgfallback.png);
+  background-position: -284px -713px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-safety {
+  background-image: url(svgfallback.png);
+  background-position: 0px -785px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-search {
+  background-image: url(svgfallback.png);
+  background-position: -72px -785px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-share {
+  background-image: url(svgfallback.png);
+  background-position: -144px -785px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-star {
+  background-image: url(svgfallback.png);
+  background-position: -216px -785px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-tag {
+  background-image: url(svgfallback.png);
+  background-position: -288px -785px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-triangle-down {
+  background-image: url(svgfallback.png);
+  background-position: 0px -857px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-user {
+  background-image: url(svgfallback.png);
+  background-position: -72px -857px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-users {
+  background-image: url(svgfallback.png);
+  background-position: -144px -857px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-vcard {
+  background-image: url(svgfallback.png);
+  background-position: -216px -857px;
+  width: 68px;
+  height: 54px;
+}
+
+.icon-view-item {
+  background-image: url(svgfallback.png);
+  background-position: -284px -857px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-view-pic {
+  background-image: url(svgfallback.png);
+  background-position: 0px -929px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-view-title {
+  background-image: url(svgfallback.png);
+  background-position: -72px -929px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-weibo {
+  background-image: url(svgfallback.png);
+  background-position: -144px -929px;
+  width: 72px;
+  height: 72px;
+}
+
+.icon-windows {
+  background-image: url(svgfallback.png);
+  background-position: -216px -929px;
+  width: 72px;
+  height: 72px;
+}
+
