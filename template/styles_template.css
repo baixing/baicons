@@ -38,6 +38,6 @@
 }
 
 <% _.each(glyphs, function(glyph) { %>.icon-<%= glyph.name %>:before {
-    content: "\<%= glyph.codepoint.toString(16).toUpperCase() %>";
+    content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>";
 }
 <% }); %>

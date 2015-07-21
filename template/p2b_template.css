@@ -3,5 +3,5 @@
 <% _.each(glyphs, function(glyph) {
     if (_.has(mapping, glyph.name))
         _.each(mapping[glyph.name], function(entry) {
-%>.icon-<%= entry %>:before { content: "\<%= glyph.codepoint.toString(16).toUpperCase() %>"; }
+%>.icon-<%= entry %>:before { content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>"; }
 <% });}); %>

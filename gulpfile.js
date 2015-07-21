@@ -18,11 +18,11 @@ function generateFonts(cb) {
     .pipe(iconfont({
       fontName: 'baicons'
     }))
-    .on('codepoints', function (codepoints) {
+    .on('glyphs', function (glyphs) {
 
       gulp.src('template/styles_template.css')
         .pipe(consolidate('lodash', {
-          glyphs: codepoints,
+          glyphs: glyphs,
           fontName: fontName,
           fontPath: fontPath
         }))
@@ -31,7 +31,7 @@ function generateFonts(cb) {
 
       gulp.src('template/p2b_template.css')
         .pipe(consolidate('lodash', {
-          glyphs: codepoints,
+          glyphs: glyphs,
           mapping: p2bmapping
         }))
         .pipe(rename(p2b))
@@ -39,7 +39,7 @@ function generateFonts(cb) {
 
       gulp.src('template/reference_template.html')
         .pipe(consolidate('lodash', {
-          glyphs: codepoints,
+          glyphs: glyphs,
           cssdest: cssDest,
           style: style
         }))
