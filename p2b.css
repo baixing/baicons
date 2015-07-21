@@ -28,8 +28,8 @@
 .icon-safety1:before { content: "\E034"; }
 .icon-downTriangle:before { content: "\E039"; }
 .icon-user-2:before { content: "\E03A"; }
-.icon-card:before { content: "\E03C"; }
-.icon-viewItem:before { content: "\E03D"; }
-.icon-viewPic:before { content: "\E03E"; }
-.icon-viewTitle:before { content: "\E03F"; }
-.icon-windows8:before { content: "\E041"; }
+.icon-card:before { content: "\E076"; }
+.icon-viewItem:before { content: "\E077"; }
+.icon-viewPic:before { content: "\E078"; }
+.icon-viewTitle:before { content: "\E079"; }
+.icon-windows8:before { content: "\E07B"; }
