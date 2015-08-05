@@ -19,7 +19,8 @@ var reference2 = "icons-reference2.html";
 function generateFonts(cb) {
   gulp.src(['source/*.svg'])
     .pipe(iconfont({
-      fontName: 'baicons'
+      fontName: 'baicons',
+	  formats: ['eot', 'svg', 'ttf', 'woff']
     }))
     .on('glyphs', function (glyphs) {
 
@@ -57,7 +58,7 @@ function generateFonts2(cb) {
   gulp.src(['source2/*.svg'])
     .pipe(iconfont({
       fontName: fontName2,
-	  normalize: true
+	  formats: ['eot', 'svg', 'ttf', 'woff']
     }))
     .on('glyphs', function (glyphs) {
 
