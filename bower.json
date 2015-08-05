@@ -11,7 +11,12 @@
     "fonts/baicons.svg",
     "fonts/baicons.ttf",
     "fonts/baicons.woff",
+    "fonts/baicons2.eot",
+    "fonts/baicons2.svg",
+    "fonts/baicons2.ttf",
+    "fonts/baicons2.woff",
     "baicons.css",
+    "baicons2.css",
     "p2b.css"
   ],
   "ignore": [
