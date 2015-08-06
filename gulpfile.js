@@ -4,6 +4,7 @@ var consolidate = require('gulp-consolidate');
 var rename = require('gulp-rename');
 
 var p2bmapping = require('./template/p2b_mapping.json');
+var version = require('./package.json').version
 var fontName = "baicons";
 var fontName2 = "baicons2";
 
@@ -20,7 +21,7 @@ function generateFonts(cb) {
   gulp.src(['source/*.svg'])
     .pipe(iconfont({
       fontName: 'baicons',
-	  formats: ['eot', 'svg', 'ttf', 'woff']
+      formats: ['eot', 'svg', 'ttf', 'woff']
     }))
     .on('glyphs', function (glyphs) {
 
@@ -28,7 +29,8 @@ function generateFonts(cb) {
         .pipe(consolidate('lodash', {
           glyphs: glyphs,
           fontName: fontName,
-          fontPath: fontPath
+          fontPath: fontPath,
+          version: version
         }))
         .pipe(rename(style))
         .pipe(gulp.dest(cssDest));
@@ -58,7 +60,7 @@ function generateFonts2(cb) {
   gulp.src(['source2/*.svg'])
     .pipe(iconfont({
       fontName: fontName2,
-	  formats: ['eot', 'svg', 'ttf', 'woff']
+      formats: ['eot', 'svg', 'ttf', 'woff']
     }))
     .on('glyphs', function (glyphs) {
 
@@ -66,7 +68,8 @@ function generateFonts2(cb) {
         .pipe(consolidate('lodash', {
           glyphs: glyphs,
           fontName: fontName2,
-          fontPath: fontPath
+          fontPath: fontPath,
+          version: version
         }))
         .pipe(rename(style2))
         .pipe(gulp.dest(cssDest));
