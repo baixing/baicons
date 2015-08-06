@@ -4,9 +4,9 @@
     font-family: "baicons2";
     src: url('fonts/baicons2.eot');
     src: url('fonts/baicons2.eot?#iefix') format('embedded-opentype'),
-    url('fonts/baicons2.woff') format('woff'),
-    url('fonts/baicons2.ttf') format('truetype'),
-    url('fonts/baicons2.svg#baicons2') format('svg');
+    url('fonts/baicons2.woff?ver=0.6.6') format('woff'),
+    url('fonts/baicons2.ttf?ver=0.6.6') format('truetype'),
+    url('fonts/baicons2.svg?ver=0.6.6#baicons2') format('svg');
     font-weight: normal;
     font-style: normal;
 }
