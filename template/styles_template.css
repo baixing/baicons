@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "<%= fontName %>";
-    src: url('<%= fontPath %><%= fontName %>.eot');
-    src: url('<%= fontPath %><%= fontName %>.eot?#iefix') format('embedded-opentype'),
-    url('<%= fontPath %><%= fontName %>.woff?ver=<%= version %>') format('woff'),
-    url('<%= fontPath %><%= fontName %>.ttf?ver=<%= version %>') format('truetype'),
-    url('<%= fontPath %><%= fontName %>.svg?ver=<%= version %>#<%= fontName %>') format('svg');
+    src: url('<%= fontPath %><%= fontName %>-<%= version %>.eot');
+    src: url('<%= fontPath %><%= fontName %>-<%= version %>.eot?#iefix') format('embedded-opentype'),
+    url('<%= fontPath %><%= fontName %>-<%= version %>.woff') format('woff'),
+    url('<%= fontPath %><%= fontName %>-<%= version %>.ttf') format('truetype'),
+    url('<%= fontPath %><%= fontName %>-<%= version %>.svg#<%= fontName %>') format('svg');
     font-weight: normal;
     font-style: normal;
 }

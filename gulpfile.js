@@ -2,9 +2,10 @@ var gulp = require('gulp');
 var iconfont = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
 var rename = require('gulp-rename');
+var clean = require('gulp-clean')
 
 var p2bmapping = require('./template/p2b_mapping.json');
-var version = require('./package.json').version
+var version = require('./package.json').version.replace(/\./g, '')
 var fontName = "baicons";
 var fontName2 = "baicons2";
 
@@ -16,6 +17,10 @@ var style2 = "baicons2.css";
 var p2b = "p2b.css";
 var reference = "icons-reference.html";
 var reference2 = "icons-reference2.html";
+
+function cleanFonts(cb) {
+  gulp.src(fontPath).pipe(clean()).on('finish', cb)
+}
 
 function generateFonts(cb) {
   gulp.src(['source/*.svg'])
@@ -52,6 +57,9 @@ function generateFonts(cb) {
         .pipe(rename(reference))
         .pipe(gulp.dest(cssDest));
     })
+    .pipe(rename(function(path) {
+      path.basename += '-' + version
+    }))
     .pipe(gulp.dest('./fonts/'))
     .on('finish',cb);
 }
@@ -83,10 +91,13 @@ function generateFonts2(cb) {
         .pipe(rename(reference2))
         .pipe(gulp.dest(cssDest));
     })
+    .pipe(rename(function(path) {
+      path.basename += '-' + version
+    }))
     .pipe(gulp.dest('./fonts/'))
     .on('finish',cb);
 }
 
-gulp.task('build', gulp.parallel(generateFonts, generateFonts2));
+gulp.task('build', gulp.series(cleanFonts, generateFonts, generateFonts2));
 
-gulp.task('default', gulp.parallel(generateFonts, generateFonts2));
+gulp.task('default', gulp.series('build'));
