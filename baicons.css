@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "baicons";
-    src: url('fonts/baicons.eot');
-    src: url('fonts/baicons.eot?#iefix') format('embedded-opentype'),
-    url('fonts/baicons.woff?ver=0.6.6') format('woff'),
-    url('fonts/baicons.ttf?ver=0.6.6') format('truetype'),
-    url('fonts/baicons.svg?ver=0.6.6#baicons') format('svg');
+    src: url('fonts/baicons-067.eot');
+    src: url('fonts/baicons-067.eot?#iefix') format('embedded-opentype'),
+    url('fonts/baicons-067.woff') format('woff'),
+    url('fonts/baicons-067.ttf') format('truetype'),
+    url('fonts/baicons-067.svg#baicons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
