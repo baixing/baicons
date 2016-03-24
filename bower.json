@@ -24,6 +24,7 @@
     "gulpfile.js",
     "package.json",
     "source",
+    "source2",
     "template"
   ],
   "license": "MIT"
