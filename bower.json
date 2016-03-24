@@ -25,6 +25,8 @@
     "package.json",
     "source",
     "source2",
+	"icons-reference.html",
+	"icons-reference2.html",
     "template"
   ],
   "license": "MIT"
