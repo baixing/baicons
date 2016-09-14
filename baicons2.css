@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "baicons2";
-    src: url('fonts/baicons2-077.eot');
-    src: url('fonts/baicons2-077.eot?#iefix') format('embedded-opentype'),
-    url('fonts/baicons2-077.woff') format('woff'),
-    url('fonts/baicons2-077.ttf') format('truetype'),
-    url('fonts/baicons2-077.svg#baicons2') format('svg');
+    src: url('fonts/baicons2-078.eot');
+    src: url('fonts/baicons2-078.eot?#iefix') format('embedded-opentype'),
+    url('fonts/baicons2-078.woff') format('woff'),
+    url('fonts/baicons2-078.ttf') format('truetype'),
+    url('fonts/baicons2-078.svg#baicons2') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -121,40 +121,40 @@
 .icon-done:before {
     content: "\EA1C";
 }
-.icon-ershou:before {
+.icon-download:before {
     content: "\EA1D";
 }
-.icon-fangchansui:before {
+.icon-ershou:before {
     content: "\EA1E";
 }
-.icon-fangwu:before {
+.icon-fangchansui:before {
     content: "\EA1F";
 }
-.icon-favor:before {
+.icon-fangwu:before {
     content: "\EA20";
 }
-.icon-feedback:before {
+.icon-favor:before {
     content: "\EA21";
 }
-.icon-fresh:before {
+.icon-feedback:before {
     content: "\EA22";
 }
-.icon-fuli:before {
+.icon-fresh:before {
     content: "\EA23";
 }
-.icon-gold:before {
+.icon-fuli:before {
     content: "\EA24";
 }
-.icon-gongren:before {
+.icon-gold:before {
     content: "\EA25";
 }
-.icon-help:before {
+.icon-gongren:before {
     content: "\EA26";
 }
-.icon-huoji:before {
+.icon-help:before {
     content: "\EA27";
 }
-.icon-icon-download:before {
+.icon-huoji:before {
     content: "\EA28";
 }
 .icon-idcard:before {
