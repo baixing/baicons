@@ -31,7 +31,8 @@
 在此基础上的特例是，类目图标以中文拼音命名，并添加 `cat-` 前缀，如 `cat-ershouche`。
 
 ### 怎样更新图标
+1. 使用node 4，注意npm install时也需要node 4
 1. 更新baicon的package.json中的版本
 1. 在 `source` 或 `source` 目录下更新图标源文件（svg 格式）
-1. 执行 `gulp build` 命令生成图标和对应样式表
+1. 执行 `npm run build` 命令生成图标和对应样式表
 1. 在使用baicon的package.json中升级baicon版本

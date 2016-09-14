@@ -5,6 +5,10 @@
     "type": "git",
     "url": "https://github.com/baixing/baicons.git"
   },
+  "engines" : { "node" : "4.2.6" },
+  "scripts": {
+	  "build": "gulp build"
+  },
   "devDependencies": {
     "gulp": "git://github.com/gulpjs/gulp#4.0",
     "gulp-consolidate": "^0.1.2",
