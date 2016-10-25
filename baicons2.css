@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @font-face {
     font-family: "baicons2";
     src: url('fonts/baicons2-079.eot');
@@ -333,18 +334,21 @@
 .icon-yuyue:before {
     content: "\EA63";
 }
-.icon-zhaohezu:before {
+.icon-zan:before {
     content: "\EA64";
 }
-.icon-zhaopin:before {
+.icon-zhaohezu:before {
     content: "\EA65";
 }
-.icon-zhaorenxunwu:before {
+.icon-zhaopin:before {
     content: "\EA66";
 }
-.icon-zhima:before {
+.icon-zhaorenxunwu:before {
     content: "\EA67";
 }
-.icon-zhizhao:before {
+.icon-zhima:before {
     content: "\EA68";
+}
+.icon-zhizhao:before {
+    content: "\EA69";
 }
