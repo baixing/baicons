@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "baicons2";
-    src: url('fonts/baicons2-080.eot');
-    src: url('fonts/baicons2-080.eot?#iefix') format('embedded-opentype'),
-    url('fonts/baicons2-080.woff') format('woff'),
-    url('fonts/baicons2-080.ttf') format('truetype'),
-    url('fonts/baicons2-080.svg#baicons2') format('svg');
+    src: url('fonts/baicons2-081.eot');
+    src: url('fonts/baicons2-081.eot?#iefix') format('embedded-opentype'),
+    url('fonts/baicons2-081.woff') format('woff'),
+    url('fonts/baicons2-081.ttf') format('truetype'),
+    url('fonts/baicons2-081.svg#baicons2') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -322,33 +322,37 @@
 .icon-xiangguan:before {
     content: "\EA5F";
 }
-.icon-xiaoshou:before {
+.icon-xiaomi:before {
     content: "\EA60";
 }
-.icon-xingzheng:before {
+.icon-xiaoshou:before {
     content: "\EA61";
 }
-.icon-xinwen:before {
+.icon-xingzheng:before {
     content: "\EA62";
 }
-.icon-yuyue:before {
+.icon-xinwen:before {
     content: "\EA63";
 }
-.icon-zan:before {
+.icon-yuyue:before {
     content: "\EA64";
 }
-.icon-zhaohezu:before {
+.icon-zan:before {
     content: "\EA65";
 }
-.icon-zhaopin:before {
+.icon-zhaohezu:before {
     content: "\EA66";
 }
-.icon-zhaorenxunwu:before {
+.icon-zhaopin:before {
     content: "\EA67";
 }
-.icon-zhima:before {
+.icon-zhaorenxunwu:before {
     content: "\EA68";
 }
-.icon-zhizhao:before {
+.icon-zhima:before {
     content: "\EA69";
 }
+.icon-zhizhao:before {
+    content: "\EA6A";
+}
+
