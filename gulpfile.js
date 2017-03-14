@@ -8,6 +8,7 @@ var p2bmapping = require('./template/p2b_mapping.json');
 var version = require('./package.json').version.replace(/\./g, '')
 var fontName = "baicons";
 var fontName2 = "baicons2";
+var fontMobile = "baicons-mobile"
 
 var fontPath = "fonts/";
 var cssDest = "./";
@@ -17,6 +18,10 @@ var style2 = "baicons2.css";
 var p2b = "p2b.css";
 var reference = "icons-reference.html";
 var reference2 = "icons-reference2.html";
+
+
+var mobileStyle = "baicons-mobile.css"
+var mobileReference = 'icons-reference-mobile.html'
 
 function cleanFonts(cb) {
   gulp.src(fontPath).pipe(clean()).on('finish', cb)
@@ -98,6 +103,40 @@ function generateFonts2(cb) {
     .on('finish',cb);
 }
 
-gulp.task('build', gulp.series(cleanFonts, generateFonts, generateFonts2));
+function generateMobileFonts(cb) {
+  gulp.src(['mobile/*.svg'])
+    .pipe(iconfont({
+      fontName: fontMobile,
+      formats: ['eot', 'svg', 'ttf', 'woff']
+    }))
+    .on('glyphs', function (glyphs) {
+
+      gulp.src('template/styles_template.css')
+        .pipe(consolidate('lodash', {
+          glyphs: glyphs,
+          fontName: fontMobile,
+          fontPath: fontPath,
+          version: version
+        }))
+        .pipe(rename(mobileStyle))
+        .pipe(gulp.dest(cssDest));
+
+      gulp.src('template/reference_template.html')
+        .pipe(consolidate('lodash', {
+          glyphs: glyphs,
+          cssdest: cssDest,
+          style: mobileStyle
+        }))
+        .pipe(rename(mobileReference))
+        .pipe(gulp.dest(cssDest));
+    })
+    .pipe(rename(function(path) {
+      path.basename += '-' + version
+    }))
+    .pipe(gulp.dest('./fonts/'))
+    .on('finish',cb);
+}
+
+gulp.task('build', gulp.series(cleanFonts, generateFonts, generateFonts2, generateMobileFonts));
 
 gulp.task('default', gulp.series('build'));

@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "baicons";
-    src: url('fonts/baicons-085.eot');
-    src: url('fonts/baicons-085.eot?#iefix') format('embedded-opentype'),
-    url('fonts/baicons-085.woff') format('woff'),
-    url('fonts/baicons-085.ttf') format('truetype'),
-    url('fonts/baicons-085.svg#baicons') format('svg');
+    src: url('fonts/baicons-086.eot');
+    src: url('fonts/baicons-086.eot?#iefix') format('embedded-opentype'),
+    url('fonts/baicons-086.woff') format('woff'),
+    url('fonts/baicons-086.ttf') format('truetype'),
+    url('fonts/baicons-086.svg#baicons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -232,4 +232,3 @@
 .icon-windows:before {
     content: "\EA41";
 }
-

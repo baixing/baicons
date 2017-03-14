@@ -8,6 +8,9 @@
 新版字体
 [baicons/icons-reference2.html](http://baixing.github.io/baicons/icons-reference2.html)
 
+手机版字体
+[baicons/icons-reference2.html](http://baixing.github.io/baicons/icons-reference-mobile.html)
+
 ### 安装
 
 `bower install git://github.com/baixing/baicons.git --save`
