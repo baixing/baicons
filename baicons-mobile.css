@@ -82,9 +82,12 @@
 .icon-nearby:before {
     content: "\EA0F";
 }
-.icon-sixrooms:before {
+.icon-search:before {
     content: "\EA10";
 }
-.icon-startbusiness:before {
+.icon-sixrooms:before {
     content: "\EA11";
+}
+.icon-startbusiness:before {
+    content: "\EA12";
 }
