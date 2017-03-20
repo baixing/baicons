@@ -9,7 +9,8 @@
 [baicons/icons-reference2.html](http://baixing.github.io/baicons/icons-reference2.html)
 
 手机版字体
-[baicons/icons-reference2.html](http://baixing.github.io/baicons/icons-reference-mobile.html)
+[baicons/icons-mobile.html](http://baixing.github.io/baicons/icons-reference-mobile.html)
+
 
 ### 安装
 

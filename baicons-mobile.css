@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "baicons-mobile";
-    src: url('fonts/baicons-mobile-087.eot');
-    src: url('fonts/baicons-mobile-087.eot?#iefix') format('embedded-opentype'),
-    url('fonts/baicons-mobile-087.woff') format('woff'),
-    url('fonts/baicons-mobile-087.ttf') format('truetype'),
-    url('fonts/baicons-mobile-087.svg#baicons-mobile') format('svg');
+    src: url('fonts/baicons-mobile-089.eot');
+    src: url('fonts/baicons-mobile-089.eot?#iefix') format('embedded-opentype'),
+    url('fonts/baicons-mobile-089.woff') format('woff'),
+    url('fonts/baicons-mobile-089.ttf') format('truetype'),
+    url('fonts/baicons-mobile-089.svg#baicons-mobile') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -37,108 +37,114 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow-down:before {
+.icon-appointment-hollow:before {
     content: "\EA01";
 }
-.icon-arrow-left:before {
+.icon-appointment:before {
     content: "\EA02";
 }
-.icon-arrow-right:before {
+.icon-arrow-down:before {
     content: "\EA03";
 }
-.icon-arrow-up:before {
+.icon-arrow-left:before {
     content: "\EA04";
 }
-.icon-beautyarea:before {
+.icon-arrow-right:before {
     content: "\EA05";
 }
-.icon-call:before {
+.icon-arrow-up:before {
     content: "\EA06";
 }
-.icon-contact:before {
+.icon-beautyarea:before {
     content: "\EA07";
 }
-.icon-create:before {
+.icon-call:before {
     content: "\EA08";
 }
-.icon-createcv-blod:before {
+.icon-contact:before {
     content: "\EA09";
 }
-.icon-createcv:before {
+.icon-create:before {
     content: "\EA0A";
 }
-.icon-createposition:before {
+.icon-createcv-blod:before {
     content: "\EA0B";
 }
-.icon-creditcard:before {
+.icon-createcv:before {
     content: "\EA0C";
 }
-.icon-delete:before {
+.icon-createposition:before {
     content: "\EA0D";
 }
-.icon-ding:before {
+.icon-creditcard:before {
     content: "\EA0E";
 }
-.icon-done:before {
+.icon-delete:before {
     content: "\EA0F";
 }
-.icon-downloadapp:before {
+.icon-ding:before {
     content: "\EA10";
 }
-.icon-favor:before {
+.icon-done:before {
     content: "\EA11";
 }
-.icon-finish:before {
+.icon-downloadapp:before {
     content: "\EA12";
 }
-.icon-food:before {
+.icon-favor:before {
     content: "\EA13";
 }
-.icon-highsalary:before {
+.icon-finish:before {
     content: "\EA14";
 }
-.icon-housing:before {
+.icon-food:before {
     content: "\EA15";
 }
-.icon-insurance:before {
+.icon-highsalary:before {
     content: "\EA16";
 }
-.icon-loan:before {
+.icon-housing:before {
     content: "\EA17";
 }
-.icon-mail-hollow:before {
+.icon-insurance:before {
     content: "\EA18";
 }
-.icon-mail-solid:before {
+.icon-loan:before {
     content: "\EA19";
 }
-.icon-message-hollow:before {
+.icon-mail-hollow:before {
     content: "\EA1A";
 }
-.icon-message-solid:before {
+.icon-mail-solid:before {
     content: "\EA1B";
 }
-.icon-nearby:before {
+.icon-message-hollow:before {
     content: "\EA1C";
 }
-.icon-phone:before {
+.icon-message-solid:before {
     content: "\EA1D";
 }
-.icon-search:before {
+.icon-nearby:before {
     content: "\EA1E";
 }
-.icon-share:before {
+.icon-phone:before {
     content: "\EA1F";
 }
-.icon-sixrooms:before {
+.icon-search:before {
     content: "\EA20";
 }
-.icon-startbusiness:before {
+.icon-share:before {
     content: "\EA21";
 }
-.icon-weixin-hollow:before {
+.icon-sixrooms:before {
     content: "\EA22";
 }
-.icon-weixin-soild:before {
+.icon-startbusiness:before {
     content: "\EA23";
+}
+.icon-weixin-hollow:before {
+    content: "\EA24";
+}
+.icon-weixin-solid:before {
+    content: "\EA25";
 }
