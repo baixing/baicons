@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "baicons-mobile";
-    src: url('fonts/baicons-mobile-089.eot');
-    src: url('fonts/baicons-mobile-089.eot?#iefix') format('embedded-opentype'),
-    url('fonts/baicons-mobile-089.woff') format('woff'),
-    url('fonts/baicons-mobile-089.ttf') format('truetype'),
-    url('fonts/baicons-mobile-089.svg#baicons-mobile') format('svg');
+    src: url('fonts/baicons-mobile-0811.eot');
+    src: url('fonts/baicons-mobile-0811.eot?#iefix') format('embedded-opentype'),
+    url('fonts/baicons-mobile-0811.woff') format('woff'),
+    url('fonts/baicons-mobile-0811.ttf') format('truetype'),
+    url('fonts/baicons-mobile-0811.svg#baicons-mobile') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -37,114 +37,159 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-appointment-hollow:before {
+.icon-ace:before {
     content: "\EA01";
 }
-.icon-appointment:before {
+.icon-appointment-hollow:before {
     content: "\EA02";
 }
-.icon-arrow-down:before {
+.icon-appointment:before {
     content: "\EA03";
 }
-.icon-arrow-left:before {
+.icon-arrow-down:before {
     content: "\EA04";
 }
-.icon-arrow-right:before {
+.icon-arrow-left:before {
     content: "\EA05";
 }
-.icon-arrow-up:before {
+.icon-arrow-right:before {
     content: "\EA06";
 }
-.icon-beautyarea:before {
+.icon-arrow-up:before {
     content: "\EA07";
 }
-.icon-call:before {
+.icon-beautyarea:before {
     content: "\EA08";
 }
-.icon-contact:before {
+.icon-call:before {
     content: "\EA09";
 }
-.icon-create:before {
+.icon-certification:before {
     content: "\EA0A";
 }
-.icon-createcv-blod:before {
+.icon-checkmark:before {
     content: "\EA0B";
 }
-.icon-createcv:before {
+.icon-contact:before {
     content: "\EA0C";
 }
-.icon-createposition:before {
+.icon-create:before {
     content: "\EA0D";
 }
-.icon-creditcard:before {
+.icon-createcv-blod:before {
     content: "\EA0E";
 }
-.icon-delete:before {
+.icon-createcv:before {
     content: "\EA0F";
 }
-.icon-ding:before {
+.icon-createposition:before {
     content: "\EA10";
 }
-.icon-done:before {
+.icon-creditcard:before {
     content: "\EA11";
 }
-.icon-downloadapp:before {
+.icon-cuxiao:before {
     content: "\EA12";
 }
-.icon-favor:before {
+.icon-delete:before {
     content: "\EA13";
 }
-.icon-finish:before {
+.icon-ding:before {
     content: "\EA14";
 }
-.icon-food:before {
+.icon-done:before {
     content: "\EA15";
 }
-.icon-highsalary:before {
+.icon-downloadapp:before {
     content: "\EA16";
 }
-.icon-housing:before {
+.icon-favor:before {
     content: "\EA17";
 }
-.icon-insurance:before {
+.icon-feedback:before {
     content: "\EA18";
 }
-.icon-loan:before {
+.icon-finish:before {
     content: "\EA19";
 }
-.icon-mail-hollow:before {
+.icon-food:before {
     content: "\EA1A";
 }
-.icon-mail-solid:before {
+.icon-fresh:before {
     content: "\EA1B";
 }
-.icon-message-hollow:before {
+.icon-highsalary:before {
     content: "\EA1C";
 }
-.icon-message-solid:before {
+.icon-housing:before {
     content: "\EA1D";
 }
-.icon-nearby:before {
+.icon-huoji:before {
     content: "\EA1E";
 }
-.icon-phone:before {
+.icon-info:before {
     content: "\EA1F";
 }
-.icon-search:before {
+.icon-insurance:before {
     content: "\EA20";
 }
-.icon-share:before {
+.icon-jinengjiaohuan:before {
     content: "\EA21";
 }
-.icon-sixrooms:before {
+.icon-list:before {
     content: "\EA22";
 }
-.icon-startbusiness:before {
+.icon-loan:before {
     content: "\EA23";
 }
-.icon-weixin-hollow:before {
+.icon-mail-hollow:before {
     content: "\EA24";
 }
-.icon-weixin-solid:before {
+.icon-mail-solid:before {
     content: "\EA25";
+}
+.icon-message-hollow:before {
+    content: "\EA26";
+}
+.icon-message-solid:before {
+    content: "\EA27";
+}
+.icon-mobile:before {
+    content: "\EA28";
+}
+.icon-nearby:before {
+    content: "\EA29";
+}
+.icon-phone:before {
+    content: "\EA2A";
+}
+.icon-search:before {
+    content: "\EA2B";
+}
+.icon-service-business:before {
+    content: "\EA2C";
+}
+.icon-share:before {
+    content: "\EA2D";
+}
+.icon-sixrooms:before {
+    content: "\EA2E";
+}
+.icon-startbusiness:before {
+    content: "\EA2F";
+}
+.icon-tips:before {
+    content: "\EA30";
+}
+.icon-weixin-hollow:before {
+    content: "\EA31";
+}
+.icon-weixin-solid:before {
+    content: "\EA32";
+}
+.icon-weizp:before {
+    content: "\EA33";
+}
+.icon-zhima:before {
+    content: "\EA34";
 }
