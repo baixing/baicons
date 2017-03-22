@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "baicons-mobile";
-    src: url('fonts/baicons-mobile-0811.eot');
-    src: url('fonts/baicons-mobile-0811.eot?#iefix') format('embedded-opentype'),
-    url('fonts/baicons-mobile-0811.woff') format('woff'),
-    url('fonts/baicons-mobile-0811.ttf') format('truetype'),
-    url('fonts/baicons-mobile-0811.svg#baicons-mobile') format('svg');
+    src: url('fonts/baicons-mobile-0812.eot');
+    src: url('fonts/baicons-mobile-0812.eot?#iefix') format('embedded-opentype'),
+    url('fonts/baicons-mobile-0812.woff') format('woff'),
+    url('fonts/baicons-mobile-0812.ttf') format('truetype'),
+    url('fonts/baicons-mobile-0812.svg#baicons-mobile') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -142,54 +142,57 @@
 .icon-loan:before {
     content: "\EA23";
 }
-.icon-mail-hollow:before {
+.icon-location:before {
     content: "\EA24";
 }
-.icon-mail-solid:before {
+.icon-mail-hollow:before {
     content: "\EA25";
 }
-.icon-message-hollow:before {
+.icon-mail-solid:before {
     content: "\EA26";
 }
-.icon-message-solid:before {
+.icon-message-hollow:before {
     content: "\EA27";
 }
-.icon-mobile:before {
+.icon-message-solid:before {
     content: "\EA28";
 }
-.icon-nearby:before {
+.icon-mobile:before {
     content: "\EA29";
 }
-.icon-phone:before {
+.icon-nearby:before {
     content: "\EA2A";
 }
-.icon-search:before {
+.icon-phone:before {
     content: "\EA2B";
 }
-.icon-service-business:before {
+.icon-search:before {
     content: "\EA2C";
 }
-.icon-share:before {
+.icon-service-business:before {
     content: "\EA2D";
 }
-.icon-sixrooms:before {
+.icon-share:before {
     content: "\EA2E";
 }
-.icon-startbusiness:before {
+.icon-sixrooms:before {
     content: "\EA2F";
 }
-.icon-tips:before {
+.icon-startbusiness:before {
     content: "\EA30";
 }
-.icon-weixin-hollow:before {
+.icon-tips:before {
     content: "\EA31";
 }
-.icon-weixin-solid:before {
+.icon-weixin-hollow:before {
     content: "\EA32";
 }
-.icon-weizp:before {
+.icon-weixin-solid:before {
     content: "\EA33";
 }
-.icon-zhima:before {
+.icon-weizp:before {
     content: "\EA34";
+}
+.icon-zhima:before {
+    content: "\EA35";
 }
