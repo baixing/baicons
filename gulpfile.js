@@ -11,6 +11,8 @@ var fontName = "baicons";
 var fontName2 = "baicons2";
 var fontMobile = "baicons-mobile"
 
+console.log(version);
+
 var fontPath = "fonts/";
 var cssDest = "./";
 var stylusDest = "./stylus";
@@ -25,7 +27,7 @@ var mobileStyle = "baicons-mobile.css"
 var mobileReference = 'icons-reference-mobile.html'
 
 function cleanFonts(cb) {
-  gulp.src(fontPath).pipe(clean()).on('finish', cb)
+  gulp.src(["./*.css", "./stylus/*.styl", fontPath]).pipe(clean()).on('finish', cb)
 }
 
 function generateFonts(cb) {
@@ -130,11 +132,6 @@ function generateMobileFonts(cb) {
         }))
         .pipe(rename(mobileReference))
         .pipe(gulp.dest(cssDest));
-
-      gulp.src(cssDest + mobileStyle)
-        .pipe(gulpReplace(/fonts\/(baicons-mobile-\d+\.(eot|woff|ttf|svg))/g, '//s.baixing.net/font/baicons/fonts/$1'))
-        .pipe(rename(mobileStyle.replace(/\.css$/, ".styl")))
-        .pipe(gulp.dest(stylusDest))
     })
     .pipe(rename(function(path) {
       path.basename += '-' + version
@@ -143,6 +140,14 @@ function generateMobileFonts(cb) {
     .on('finish',cb);
 }
 
-gulp.task('build', gulp.series(cleanFonts, generateFonts, generateFonts2, generateMobileFonts));
+function generateMobileStylus(cb) {
+  gulp.src(cssDest + mobileStyle)
+    .pipe(gulpReplace(/fonts\/(baicons-mobile-\d+\.(eot|woff|ttf|svg))/g, '//s.baixing.net/font/baicons/fonts/$1'))
+    .pipe(rename(mobileStyle.replace(/\.css$/, ".styl")))
+    .pipe(gulp.dest(stylusDest))
+    .on('finish',cb);
+}
+
+gulp.task('build', gulp.series(cleanFonts, generateFonts, generateFonts2, generateMobileFonts, generateMobileStylus));
 
 gulp.task('default', gulp.series('build'));
