@@ -2,7 +2,8 @@ var gulp = require('gulp');
 var iconfont = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
 var rename = require('gulp-rename');
-var clean = require('gulp-clean')
+var clean = require('gulp-clean');
+var gulpReplace = require('gulp-replace');
 
 var p2bmapping = require('./template/p2b_mapping.json');
 var version = require('./package.json').version.replace(/\./g, '')
@@ -12,13 +13,13 @@ var fontMobile = "baicons-mobile"
 
 var fontPath = "fonts/";
 var cssDest = "./";
+var stylusDest = "./stylus";
 
 var style = "baicons.css";
 var style2 = "baicons2.css";
 var p2b = "p2b.css";
 var reference = "icons-reference.html";
 var reference2 = "icons-reference2.html";
-
 
 var mobileStyle = "baicons-mobile.css"
 var mobileReference = 'icons-reference-mobile.html'
@@ -129,6 +130,11 @@ function generateMobileFonts(cb) {
         }))
         .pipe(rename(mobileReference))
         .pipe(gulp.dest(cssDest));
+
+      gulp.src(cssDest + mobileStyle)
+        .pipe(gulpReplace(/fonts\/(baicons-mobile-\d+\.(eot|woff|ttf|svg))/g, '//s.baixing.net/font/baicons/fonts/$1'))
+        .pipe(rename(mobileStyle.replace(/\.css$/, ".styl")))
+        .pipe(gulp.dest(stylusDest))
     })
     .pipe(rename(function(path) {
       path.basename += '-' + version
