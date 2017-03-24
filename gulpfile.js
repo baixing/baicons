@@ -11,8 +11,6 @@ var fontName = "baicons";
 var fontName2 = "baicons2";
 var fontMobile = "baicons-mobile"
 
-console.log(version);
-
 var fontPath = "fonts/";
 var cssDest = "./";
 var stylusDest = "./stylus";
